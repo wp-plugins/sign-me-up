@@ -1,10 +1,10 @@
-=== sign-me-up ===
+=== Sign Me Up ===
 Contributors: jaromy
 Donate link: http://www.jaromy.net/wordpress-plugins/donate/
 Tags: phplist, ajax, form, signup, signup form, mailing list, subscription, widget 
 Requires at least: 4.0.0
 Tested up to: 4.1.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,24 +73,24 @@ The messages for a successful response can be customized via the Subscribe Page 
 
 == Screenshots ==
 
-1. Example of the form on a Wordpress page. Elegant, simple, and minimal. Place it anywhere you want via the Wordpress Widgets admin page.
-2. Built-in error checking - ensures email follows a valid format and reduces typographical errors. 
-3. Example form, after a successful submission. Message and formatting is configured via phpList Subscribe Page.
-4. Configuring the form via Wordpress admin backend. Use the widgets control panel to access and configure the plugin.
-5. Default signup list form provided by phpList. It's a separate page that does not have the same look & branding as your Wordpress site.
-6. Subscribe Pages configuration area in phpList.
-7. Subscribe page configuration in phpList - 1) Customize the confirmation message, 2) Radio checkbox settings 
-8. Subscribe page configuration in phpList - associate list with this page/signup form
-
+1. Example of Sign Me Up form installed in WordPress Twenty Fourteen Theme
+2. Built-in error checking - ensures email address has a valid format
+3. Example response after a successful submission. Message and formatting can be customized via phpList Subscribe Page.
+4. Configuring the form via the Widgets panel in WordPress backend
 
 == Changelog ==
 
 = 1.0 =
 * Initial release
 
+= 1.1 =
+* Screenshots added
+* Fixed incorrect name in readme file
 
 == Upgrade Notice ==
 
 = 1.0 =
 Initial release
 
+= 1.1 = 
+Cosmetic fixes for plugin page on wordpress.org
