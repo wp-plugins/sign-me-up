@@ -4,7 +4,7 @@ Donate link: http://www.jaromy.net/wordpress-plugins/donate/
 Tags: phplist, ajax, form, signup, signup form, mailing list, subscription, widget 
 Requires at least: 4.0.0
 Tested up to: 4.1.0
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,6 +87,9 @@ The messages for a successful response can be customized via the Subscribe Page 
 * Screenshots added
 * Fixed incorrect name in readme file
 
+= 1.2 =
+* Fixed incorrect version # *
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -94,3 +97,6 @@ Initial release
 
 = 1.1 = 
 Cosmetic fixes for plugin page on wordpress.org
+
+= 1.2 =
+Version # fix
