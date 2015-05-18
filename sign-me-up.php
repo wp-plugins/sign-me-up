@@ -198,7 +198,7 @@ class smu_widget extends WP_Widget {
 		wp_register_script( 'smu', plugins_url('/assets/js/magic.js', __FILE__), array('jquery'), '1.0', true);
 
 		wp_localize_script('smu','smu', array(
-			'ajax_url' => add_query_arg(array('action' => 'smu','_wpnonce' => wp_create_nonce( 'smu' )), untrailingslashit(admin_url('admin-ajax.php'))),
+			'ajax_url' => esc_url(add_query_arg(array('action' => 'smu','_wpnonce' => wp_create_nonce( 'smu' )), untrailingslashit(admin_url('admin-ajax.php')))),
 		));
 	}
 

@@ -2,9 +2,9 @@
 Contributors: jaromy
 Donate link: http://www.jaromy.net/wordpress-plugins/donate/
 Tags: phplist, ajax, form, signup, signup form, mailing list, subscription, widget 
-Requires at least: 4.0.0
-Tested up to: 4.1.0
-Stable tag: 1.2
+Requires at least: 4.0.1
+Tested up to: 4.2.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,12 +35,19 @@ This plugin is a widget that adds a simple sign-up form to your WordPress site, 
 
 == Installation ==
 
-To install this plugin:
+**Requirements:**
+
+* phpList version 3.0.10 or greater (either self-hosted or hosted)
+* WordPress version 4.0.1 or greater
+
+
+**To install this plugin:**
 
 1. Upload the contents of sign-me-up.zip to your plugins directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Add the Sign Me Up widget to your site using the Appearance -> Widgets menu.
 1. Specify your form settings in the widget. For more info head over to: [Sign Me Up](http://www.jaromy.net/wordpress-plugins/sign-me-up/)
+1. If phpList and WordPress are on separate domains or subdomains, then you will need to modify the .htaccess file on the phpList domain. See [Cross-Domains](http://www.jaromy.net/wordpress-plugins/sign-me-up/#cross-domains) for more details.
 1. That's all. You're done!
 
 Alternatively you can search for the plugin from your WordPress dashboard and install from there.
@@ -69,6 +76,21 @@ You can only have one widget per WordPress page. But, you can setup multiple wid
 
 The messages for a successful response can be customized via the Subscribe Page in phpList. Unfortunately, the error messages and failed submission messages cannot be customized.
 
+= Can I use the hosted version of phpList? =
+
+Yes, this should work with no issues. Just make sure that you enable cross-domain AJAX first. For more detailed instructions, see [Cross-Domains](http://www.jaromy.net/wordpress-plugins/sign-me-up/#cross-domains).
+
+= Can phpList and WordPress live on different domains or subdomains? =
+
+Yes. Again, just make sure that you have enabled cross-domain AJAX. For more detailed instructions, see [Cross-Domains](http://www.jaromy.net/wordpress-plugins/sign-me-up/#cross-domains).
+
+= I get the following error: "Unfortunately a network error occurred. Please try again. If this problem persists, please contact the webmaster." =
+
+This could be due to a number of issues:
+
+* Cross-domain issues, see [Cross-Domains](http://www.jaromy.net/wordpress-plugins/sign-me-up/#cross-domains)
+* WWW-prefix issues, see [WWW-prefix](http://www.jaromy.net/wordpress-plugins/sign-me-up/#cross-domains)
+* Old incompatible versions of phpList or WordPress, see [Requirements](https://wordpress.org/plugins/sign-me-up/installation/)
 
 
 == Screenshots ==
@@ -90,6 +112,9 @@ The messages for a successful response can be customized via the Subscribe Page 
 = 1.2 =
 * Fixed incorrect version # *
 
+= 1.3 =
+* Fixed potential XSS vulnerability in add_query_arg
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -100,3 +125,6 @@ Cosmetic fixes for plugin page on wordpress.org
 
 = 1.2 =
 Version # fix
+
+= 1.3 = 
+Security fix for XSS vulnerability
