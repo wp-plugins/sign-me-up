@@ -3,7 +3,7 @@
 Plugin Name: Sign Me Up
 Plugin URI: http://www.jaromy.net/wordpress-plugins/sign-me-up/
 Description: Add a simple straightforward sign-up form to your WordPress site. Integrates with phpList, the most popular open-source newsletter manager.
-Version: 1.2
+Version: 1.4.1
 Author: Jaromy Russo
 Author URI: http://jaromy.net
 Text Domain: sign-me-up
