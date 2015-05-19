@@ -110,16 +110,16 @@ This could be due to a number of issues:
 * Fixed incorrect name in readme file
 
 = 1.2 =
-* Fixed incorrect version number *
+* Fixed incorrect version number
 
 = 1.3 =
 * Fixed potential XSS vulnerability in add_query_arg
 
 = 1.4 =
-* Fixed incorrect version number *
+* Fixed incorrect version number
 
 = 1.4.1 =
-* Fixed changelog in readme *
+* Fixed changelog in readme
 
 == Upgrade Notice ==
 
