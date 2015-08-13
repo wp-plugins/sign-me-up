@@ -3,8 +3,8 @@ Contributors: jaromy
 Donate link: http://www.jaromy.net/wordpress-plugins/donate/
 Tags: phplist, ajax, form, signup, signup form, mailing list, subscription, widget 
 Requires at least: 4.0.1
-Tested up to: 4.2.2
-Stable tag: 1.4.1
+Tested up to: 4.2.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -121,6 +121,9 @@ This could be due to a number of issues:
 = 1.4.1 =
 * Fixed changelog in readme
 
+= 1.5 =
+* Changed constructor to PHP 5 syntax; compliant with upcoming WP 4.3 release
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -140,3 +143,6 @@ Version number fix
 
 = 1.4.1 =
 Changelog updated
+
+= 1.5 =
+Changes for compliance with WordPress 4.3 release
