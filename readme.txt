@@ -3,7 +3,7 @@ Contributors: jaromy
 Donate link: http://www.jaromy.net/wordpress-plugins/donate/
 Tags: phplist, ajax, form, signup, signup form, mailing list, subscription, widget 
 Requires at least: 4.0.1
-Tested up to: 4.2.4
+Tested up to: 4.3
 Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
